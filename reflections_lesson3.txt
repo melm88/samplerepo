@@ -28,4 +28,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It would leave the master unchanged, so that you can experiment or try a new feature and not disturb the working master code.
