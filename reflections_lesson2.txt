@@ -1,7 +1,11 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
 
 	When you initialize a repository it creates a ".git" file that will hold the meta-data of your repository. It is helpful because this would provide the information to git and let us know about file changes and commits that we have done to the repository.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	Staging area is important as it would allow a user to place files that he wishes to add to repository. By this the user could opt to put all files in the staging area and then commit to repository or else add only the files that he wishes to put on repository in the staging area and then commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+	Using "git diff" and "git diff --staged", I can see the difference between files in each of the directories (repository, staging area, working directory) and so I can check if the file in my stagin area is having any changes that must be commited to the repository.
