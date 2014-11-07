@@ -9,3 +9,19 @@
 3. How can you use the staging area to make sure you have one commit per logical change?
 
 	Using "git diff" and "git diff --staged", I can see the difference between files in each of the directories (repository, staging area, working directory) and so I can check if the file in my stagin area is having any changes that must be commited to the repository.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches would help significantly when you want to try variations to the project you are doing without disturbing the actual project. Branches could be development, experimentation.
+
+5. How do the diagrams help you visualize the branch structure?
+
+	The diagrams will help us in knowing how many branches are there and what commits were performed on each branch. It would also allow us to know which branch is reachable from a commit.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When we merge two branches together, we are able to combine the features from the two branches and use it as one. The diagram helps us to identify where each branch leads to and which commits are accessible from which branch node.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging will merge two branches based on the diff and when there's no conflict. Manual merging gives the power to the user as he can make the decision as to how to resolve  the issue.
